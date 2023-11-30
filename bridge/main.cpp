@@ -22,6 +22,7 @@ void ClientCode(const Abstraction& abstraction) {
 */
 
 int main() {
+	//nowy
 	Implementation* implementation = new ConcreteImplementationA;
 	Abstraction* abstraction = new Abstraction(implementation);
 	ClientCode(*abstraction);
